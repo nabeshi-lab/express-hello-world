@@ -51,8 +51,8 @@ app.post("/webhook", function(req,res){
 
         //リクエストヘッダー
         const headers = {
-            "Content-Type" : "application/json",
-            Authorization : "Bearer" + TOKEN,
+            "Content-Type": "application/json",
+            Authorization: "Bearer " + TOKEN,
         };
 
         //Node.jsのhttps.requestメソッドで定義された仕様に従ってオプションを指定
